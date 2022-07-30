@@ -10,6 +10,8 @@ YOLOv4 is a series of additions to computer vision techniques that are known to 
 
 ![chart_yolov4-tiny](Test_Image/chart_yolov4-tiny.png)
 
+From the chart above, The blue curve represents the training loss or the error on the training dataset (Complete Intersection-Over-Union or CIoU loss for YOLOv4). The red line represents the mean average precision (mAP) at 50% Intersection-over-Union threshold (mAP@0.5), which generalizes well on a never-before-seen dataset or validation set. For more about mAP, you can check this [link](https://jonathan-hui.medium.com/map-mean-average-precision-for-object-detection-45c121a31173 ).
+
 
 
 ## Acknowledgements
