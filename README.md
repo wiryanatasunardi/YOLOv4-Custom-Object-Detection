@@ -14,6 +14,7 @@ To train the dataset using YOLOv4, we have to configure our GPU environment on g
 - GPU with specific GPU drivers installed
 - OpenCV
 - cuDNN configured on top of GPU drivers
+
 Next step, we have to install the Darknet YOLOv4 training environment. Darknet is a custom framework written by Joseph Redmon. While Darknet is not as intuitive to use, it is immensely flexible and advances state-of-the-art object detection results. After installing the Darknet YOLOv4 training environment, we have to configure a custom YOLOv4 training config file for Darknet. We set up the config by combining a series of chunked config files. We take the following steps according to the [YOLOv4 repository](https://github.com/AlexeyAB/darknet):
 - Set batch size to 64 - batch size is the number of images per iteration
 - Established subdivisions to 12 are the number of pieces your batch is broken into for GPU memory.
