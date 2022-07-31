@@ -9,7 +9,8 @@ class_names = []
 with open("classes.txt", "r") as f:
     class_names = [cname.strip() for cname in f.readlines()]
 
-cap = cv2.VideoCapture("Test_Video/test_4.mp4")
+# cap = cv2.VideoCapture("Test_Video/test_4.mp4")
+cap = cv2.VideoCapture(0)
 
 net = cv2.dnn.readNet("yolov4-tiny_best.weights", "yolov4-tiny.cfg")
 net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)
@@ -19,8 +20,8 @@ model = cv2.dnn_DetectionModel(net)
 model.setInputParams(size=(416, 416), scale=1 / 255, swapRB=True)
 
 while cv2.waitKey(1) < 1:
-    (grabbed, frame) = cap.read()
-    if not grabbed:
+    _, frame = cap.read()
+    if not _:
         exit()
 
     start = time.time()
