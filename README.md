@@ -39,6 +39,8 @@ From the chart above, The blue curve represents the training loss or the error o
  - [YOLO Object Detection with OpenCV](https://pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/)
  - [Dataset Labelling/Annotation](https://medium.com/analytics-vidhya/image-dataset-labeling-annotation-bec3390eda2d)
  - [How to Train YOLOv4 on a Custom Dataset](https://blog.roboflow.com/training-yolov4-on-a-custom-dataset/)
+ - [How to use YOLOv4 OpenCV with CUDA enabled DNN Module for better performance](https://github.com/kn1ghtf1re/YOLOv4-OpenCV-CUDA-DNN)
+
 
 ## Authors
 
