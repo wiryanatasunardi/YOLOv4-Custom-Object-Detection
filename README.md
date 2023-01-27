@@ -47,4 +47,4 @@ From the chart above, The blue curve represents the training loss or the error o
 -  LinkedIn  - [Wiryanata Sunardi](https://www.linkedin.com/in/wiryanata/)
 -  Instagram - [wiryanatasunardi](https://www.instagram.com/wiryanatasunardi/)
 -  LinkedIn  - [Aidan Azkafaro Deson](https://www.linkedin.com/in/aidan-azkafaro-deson-0323221b7/)
--  Instagram - [@aidanazk_](https://www.instagram.com/aidanazk_/)
+-  Instagram - [aidanazk_](https://www.instagram.com/aidanazk_/)
